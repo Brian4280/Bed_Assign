@@ -75,7 +75,7 @@ void PortFPin0IntHandler(void)
     TIMER1_CTL_R = 0;
     TIMER1_CFG_R = 0x04; // 16 bit
     TIMER1_TAMR_R = 0x02;  // periomic mode and down counter
-    TIMER1_TAILR_R = 160000-1;  // 60M / 250prescalar for 1 mSec
+    TIMER1_TAILR_R = 160000-1;  // 40M / 250prescalar for 1 mSec
     TIMER1_TAPR_R = 250-1;  // prescalar of 250
     TIMER1_ICR_R = 0x1;     // remove timeout flag
     TIMER1_CTL_R |= 0x01;   // enable timer 1 A
