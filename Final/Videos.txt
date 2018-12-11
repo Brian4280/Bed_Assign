@@ -1,0 +1,3 @@
+I2C Transmission Video: https://www.youtube.com/watch?v=Sx-BT1LO9uU
+Ti Stack Application: https://www.youtube.com/watch?v=H113EQ4qvI8
+Presentation Video: https://www.youtube.com/watch?v=ynIpsFEgr-0
